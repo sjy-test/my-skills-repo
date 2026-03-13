@@ -1,18 +1,13 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "my-skills-marketplace",
-  "owner": {
-    "name": "sjy-test",
-    "email": "18268035801@163.com"
-  },
-  "plugins": [
-    {
-      "name": "my-skills",
-      "source": "./",
-      "version": "1.0.0",
-      "description": "我的自定义技能仓库",
-      "category": "utilities",
-      "keywords": ["skills", "utilities"]
-    }
-  ]
+  "name": "my-skills",
+  "display_name": "My Custom Skills",
+  "description": "A collection of custom workflow tools for Claude",
+  "publisher": "sjy-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "tags": ["custom", "workflow", "automation", "claude-plugin"],
+  "category": "utility",
+  "icon": "https://raw.githubusercontent.com/your-username/your-repo-name/main/icon.png",
+  "homepage": "https://github.com/sjy-test/my-skills-repo",
+  "repository": "https://github.com/sjy-test/my-skills-repo.git"
 }
