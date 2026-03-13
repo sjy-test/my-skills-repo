@@ -1,7 +1,46 @@
 {
+  "schema_version": "v1",
   "name": "my-skills",
+  "display_name": "My Custom Skills",
+  "description": "A custom plugin for my personal workflow automation",
   "version": "1.0.0",
-  "description": "My custom skills",
   "author": "sjy-test",
-  "skills": ["skills/**/*.skill.md"]
+  "url": "https://github.com/sjy-test/my-skills-repo",
+  "capabilities": {
+    "tools": [
+      {
+        "name": "custom_tool_1",
+        "description": "Description of your first custom tool",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "input_text": {
+              "type": "string",
+              "description": "The input text to process"
+            },
+            "option_flag": {
+              "type": "boolean",
+              "description": "An optional boolean flag",
+              "default": false
+            }
+          },
+          "required": ["input_text"]
+        }
+      },
+      {
+        "name": "custom_tool_2",
+        "description": "Description of your second custom tool",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "target_id": {
+              "type": "string",
+              "description": "The target identifier to operate on"
+            }
+          },
+          "required": ["target_id"]
+        }
+      }
+    ]
+  }
 }
