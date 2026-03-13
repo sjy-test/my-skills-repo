@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "my-skills-marketplace",
   "owner": {
-    "name": "sjytest9431093216",
+    "name": "sjy-test",
     "email": "18268035801@163.com"
   },
   "plugins": [
