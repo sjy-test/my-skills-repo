@@ -1,0 +1,7 @@
+{
+  "name": "my-skills",
+  "version": "1.0.0",
+  "description": "My custom skills",
+  "author": "sjy-test",
+  "skills": ["skills/**/*.skill.md"]
+}
